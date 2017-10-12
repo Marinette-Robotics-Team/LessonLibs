@@ -36,8 +36,8 @@ public class Drive extends Subsystem {
     		throw new IllegalArgumentException("speed must be between -1 and 1");
     	}
     	
-    	FRONT_RIGHT_MOTOR.set(speed);
-    	REAR_RIGHT_MOTOR.set(speed);
+    	FRONT_RIGHT_MOTOR.set(-speed);
+    	REAR_RIGHT_MOTOR.set(-speed);
     }
 }
 

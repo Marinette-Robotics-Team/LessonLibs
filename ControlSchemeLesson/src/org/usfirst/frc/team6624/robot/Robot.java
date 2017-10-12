@@ -147,7 +147,7 @@ public class Robot extends IterativeRobot {
 	}
 	
 	public static double getLeftJoystickY() {
-		return 1 - OI.xbox.getRawAxis(OI.xboxLeftY);
+		return -OI.xbox.getRawAxis(OI.xboxLeftY);
 	}
 	
 	public static double getRightJoystickX() {
@@ -155,6 +155,6 @@ public class Robot extends IterativeRobot {
 	}
 	
 	public static double getRightJoystickY() {
-		return 1 - OI.xbox.getRawAxis(OI.xboxRightY);
+		return -OI.xbox.getRawAxis(OI.xboxRightY);
 	}
 }
