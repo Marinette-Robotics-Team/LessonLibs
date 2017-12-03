@@ -35,9 +35,11 @@ public class Project1{
 
 
 
-		// Now I want you to greet the user by their name
-		// and say how old they are.
-
+		// Now I want you to tell the person a message if
+		// they are under 18 and one if they are older than 18
+		// use if statements and printouts
+		
+		
 
 
 
